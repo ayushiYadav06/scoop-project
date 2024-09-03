@@ -8,11 +8,8 @@ import {
   faThumbsUp,
   faThumbsDown,
 } from "@fortawesome/free-solid-svg-icons";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+
+
 import img1 from "../../assests/careerImg/img1.png";
 import img2 from "../../assests/careerImg/img2.png";
 import comp1 from "../../assests/careerImg/comp1.png";
@@ -28,33 +25,50 @@ const HomePage = () => {
       imgSrc: img1, // Update with actual image paths
       number: "01",
       title: "Data",
-      hoverTitle: "Explore Data Course",
-      buttonText: "Explore Now",
     },
     {
       id: 2,
       imgSrc: img1,
       number: "02",
       title: "Digital Marketing",
-      hoverTitle: "Explore Marketing Course",
-      buttonText: "Explore Now",
     },
     {
       id: 3,
       imgSrc: img1,
       number: "03",
       title: "Web Development",
-      hoverTitle: "Explore Design Course",
-      buttonText: "Explore Now",
     },
     {
       id: 4,
       imgSrc: img2,
       number: "04",
       title: "Cyber Security",
-      hoverTitle: "Explore Tech Course",
-      buttonText: "Explore Now",
     },
+    {
+      id: 5,
+      imgSrc: img2,
+      number: "04",
+      title: "Cyber Security",
+    },
+    {
+      id: 6,
+      imgSrc: img2,
+      number: "04",
+      title: "Cyber Security",
+    },
+    {
+      id: 7,
+      imgSrc: img2,
+      number: "04",
+      title: "Cyber Security",
+    },
+    {
+      id: 8,
+      imgSrc: img2,
+      number: "04",
+      title: "Cyber Security",
+    },
+    
   ];
 
   const settings = {
@@ -183,9 +197,9 @@ const HomePage = () => {
                 <h1 className="data-no">{item.number}</h1>
                 <h1 className="data-content">{item.title}</h1>
               </div>
-              <div className="career-hover-content" style={{ display: "none" }}>
-                <h1>{item.hoverTitle}</h1>
-                <button>{item.buttonText}</button>
+              <div className="career-hover-content" style={{ display: "block" }}>
+                <h1 className="explore"> Explore Data Course</h1>
+                <button className="explore-btn">Explore Know</button>
               </div>
             </div>
           ))}

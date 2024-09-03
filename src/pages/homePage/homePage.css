@@ -99,6 +99,51 @@
   width: 100%;
 }
 
+.career-card {
+  position: relative;
+  overflow: hidden; /* Ensure that content doesn't overflow the card */
+  border-radius: 20px;
+}
+
+.career-hover-content {
+  background-color: rgba(167, 167, 255, 0.9); /* Transparent background */
+  width: 90%;
+  height: 27rem;
+  border-radius: 20px;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.career-card:hover .data-no,
+.career-card:hover .data-content {
+  display: none;
+}
+
+.career-card:hover .career-hover-content {
+  opacity: 1; /* Show the hover content on hover */
+}
+
+.explore {
+  font-size: 3.5rem;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+.explore-btn {
+  padding: 1rem;
+  border-radius: 36px;
+  background: red;
+  border: none;
+  font-size: 1rem;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 5.7rem;
+}
+
 /* contact section */
 
 .impact {
@@ -182,6 +227,7 @@
   margin-top: 1rem;
   position: relative;
   margin-left: 1.3rem;
+  border-radius: 20px;
   
 }
 .upper-content {
