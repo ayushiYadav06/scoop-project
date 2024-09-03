@@ -169,6 +169,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <div className="blur"></div>
 
       <div className="career-fit">
         <div className="career-main-content">
@@ -197,7 +198,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="impact">
+      {/* <div className="impact">
         <div className="impact-data">
           <div className="imapct-one">
             <img className="impact-img1" src={comp1} alt="" />
@@ -241,6 +242,74 @@ const HomePage = () => {
               Join Our rapidly growing learning community and acquire real-world
               skills.{" "}
             </p>
+          </div>
+        </div>
+      </div> */}
+
+      <div
+        className="impact-data"
+        style={{
+          width: "100%",
+          height: "100%",
+          // marginLeft: "40px",
+          // marginTop: "50px",
+          // borderRadius: "50px",
+          // padding: "2rem",
+          objectFit: "cover",
+        }}
+      >
+        <div>
+          <div>
+            <img
+              src={frame2}
+              alt=""
+              style={{ width: "22%", marginTop: "-48px", marginLeft: "250px" }}
+            />
+            <div>
+              <img
+                src={frame4}
+                alt=""
+                style={{
+                  width: "24%",
+                  marginLeft: "80px",
+                  marginTop: "-50px",
+                }}
+              />
+              <div>
+                <h1
+                  style={{
+                    color: "white",
+                    marginLeft: "50%",
+                    marginTop: "-10%",
+                    fontSize: "4rem",
+                  }}
+                >
+                  Our Impact Number
+                </h1>
+                <p
+                  style={{
+                    color: "white",
+                    width: "40%",
+                    marginLeft: "50%",
+                    fontSize: "1.5rem",
+                  }}
+                >
+                  Join our rapidly growing learning community and aquire
+                  realworld skills.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img
+                src={frame3}
+                alt=""
+                style={{
+                  width: "22%",
+                  marginLeft: "250px",
+                  marginTop: "-95px",
+                }}
+              />
+            </div>
           </div>
         </div>
       </div>
