@@ -142,7 +142,7 @@ const HomePage = () => {
         <div className="hero-container">
           <div className="section-one">
             <h1 className="main-heading">
-              Welcome to <span style={{ color: "#919B9D" }}>Scope</span>
+              Welcome to <span style={{ color: "#919B9D" }}> </span>
             </h1>
             <p className="hero-para">
               Top Mentorship in Tech, Marketing & Data—Designed and Delivered by

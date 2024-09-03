@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+.inner-header{
+    padding-left: 2rem;
+}
+.header-logo {
+  width: 100%;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  gap: 3rem;
+}
+
+li {
+  list-style: none;
+}
+.login{
+    padding: 1rem 2rem;
+    background: red;
+    border-radius: 16px;
+    border: none;
+    font-size: 1.3rem;
+    margin-top: -1rem;
+}
