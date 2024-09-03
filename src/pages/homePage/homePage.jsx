@@ -48,30 +48,30 @@ const HomePage = () => {
       number: "04",
       title: "Cyber Security",
     },
-    {
-      id: 5,
-      imgSrc: img2,
-      number: "04",
-      title: "Cyber Security",
-    },
-    {
-      id: 6,
-      imgSrc: img2,
-      number: "04",
-      title: "Cyber Security",
-    },
-    {
-      id: 7,
-      imgSrc: img2,
-      number: "04",
-      title: "Cyber Security",
-    },
-    {
-      id: 8,
-      imgSrc: img2,
-      number: "04",
-      title: "Cyber Security",
-    },
+    // {
+    //   id: 5,
+    //   imgSrc: img2,
+    //   number: "04",
+    //   title: "Cyber Security",
+    // },
+    // {
+    //   id: 6,
+    //   imgSrc: img2,
+    //   number: "04",
+    //   title: "Cyber Security",
+    // },
+    // {
+    //   id: 7,
+    //   imgSrc: img2,
+    //   number: "04",
+    //   title: "Cyber Security",
+    // },
+    // {
+    //   id: 8,
+    //   imgSrc: img2,
+    //   number: "04",
+    //   title: "Cyber Security",
+    // },
     
   ];
 
@@ -412,7 +412,7 @@ const HomePage = () => {
         style={{
           width: "90%",
           height: "80vh",
-          background: "#aaa",
+          background: "#dbdee0",
           marginLeft: "40px",
           marginTop: "50px",
           borderRadius: "50px",
