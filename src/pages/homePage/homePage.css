@@ -1,0 +1,305 @@
+/* hero section */
+
+.home-container {
+  background-image: url("../../assests/heroImg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 45.6rem;
+  /* padding-top: 1rem; */
+}
+.hero-container {
+  background-color: white;
+  width: 50%;
+  height: 45.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  font-size: 4rem;
+  text-align: center;
+}
+.section-two {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  width: 70%;
+  margin-top: 5rem;
+}
+.hero-para {
+  width: 63%;
+  /* text-align: center; */
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: auto;
+  margin-left: 6.5rem;
+}
+.hero-btn {
+  background-color: black;
+  color: white;
+  padding: 1.3rem 3.5rem;
+  border-radius: 38px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.hero-btn:hover{
+    background-color: #E93C30;
+    border-color: #E93C30;
+}
+.extra {
+  padding: 1.3rem 4.3rem;
+}
+
+/* career fit section */
+.career-fit {
+  background-color: #9b9d9d;
+  color: white;
+
+  padding-bottom: 3rem;
+}
+.career-main-content {
+  text-align: center;
+}
+.career-heading {
+  font-size: 3.5rem;
+  margin-top: 0rem;
+  padding-top: 2rem;
+  font-weight: 700;
+  margin-bottom: 0rem;
+}
+.career-para {
+  font-size: 1.3rem;
+}
+.main-card {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.career-card {
+  position: relative;
+  z-index: 0;
+}
+.data-no {
+  width: 70%;
+  position: absolute;
+  z-index: 5;
+  top: 0rem;
+  font-size: 5rem;
+  left: 4rem;
+}
+.data-content {
+  position: absolute;
+  z-index: 5;
+  top: 10rem;
+  font-size: 3.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+/* contact section */
+
+.impact {
+  color: white;
+}
+.impact-data {
+  background-image: url("../../assests/careerImg/Impact\ Number\ Container.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 45.6rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.impact-data-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35rem;
+  margin-top: 2rem;
+}
+.impact-img1 {
+}
+.impact-heading {
+  font-size: 3rem;
+}
+.impact-para {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.impact-one {
+  position: relative;
+  margin-left: 38rem;
+}
+.inner-content {
+  position: relative;
+  top: -34rem;
+  left: 4rem;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.num {
+  font-size: 3rem;
+}
+.head {
+  font-size: 1.5rem;
+}
+.para {
+  font-size: 1.3rem;
+}
+
+.head-class {
+  margin-top: 4rem;
+}
+.live {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.live-para {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.container-card {
+  width: 29%;
+  background-color: #dbdee0;
+  border-radius: 28px;
+}
+.img-class {
+  height: 14rem;
+  width: 90%;
+  margin-top: 1rem;
+  position: relative;
+  margin-left: 1.3rem;
+}
+.upper-content {
+  position: relative;
+}
+.classess-content {
+  position: absolute;
+  top: 3rem;
+  color: white;
+  left: 1rem;
+}
+.class-btn {
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  border: none;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-left: 20rem;
+  margin-top: -1rem;
+  color: white;
+}
+.dot {
+  width: 0.6rem;
+  border-radius: 50%;
+  background-color: white;
+  color: white;
+  height: 0.6rem;
+}
+.numberss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  font-size: 1.3rem;
+}
+.lower-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #5e6366;
+}
+.classes-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.testimonal {
+  margin-top: 4rem;
+  background-image: url("../../assests/careerImg/Testinomials.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 55rem;
+  padding-top: 0.5rem;
+}
+.testiomal-cards-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+.testimonal-heading {
+  font-size: 3rem;
+  text-align: center;
+}
+.testimonal-para {
+  margin-top: -1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.testimonal-content{
+    margin-bottom: 2rem;
+}
+
+.testiomal-card {
+  height: 37rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.9); 
+}
+.testimonial-img {
+  height: 38%;
+  width: 48%;
+  border-radius: 50%;
+  border: 1px solid gray;
+  overflow: hidden;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.name {
+  font-size: 1.7rem;
+}
+.line {
+  width: 80%;
+  margin: auto;
+  height: 0.3rem;
+  background: #D4DFE4;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.data {
+  margin: 0px;
+  color: red;
+  font-size: 1.4rem;
+}
+.test-para{
+    font-size: 1.3rem;
+    text-align: center;
+    width: 80%;
+}
