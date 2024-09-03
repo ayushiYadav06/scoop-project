@@ -9,6 +9,10 @@
   height: 45.6rem;
   /* padding-top: 1rem; */
 }
+
+.blur{
+  filter: blur(100px);
+}
 .hero-container {
   background-color: white;
   width: 50%;
@@ -17,6 +21,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 .main-heading {
   font-size: 4rem;
@@ -28,6 +33,8 @@
   align-items: end;
   width: 70%;
   margin-top: 5rem;
+  /* border-right: 10px solid white;
+  filter: blur(100px); */
 }
 .hero-para {
   width: 63%;
@@ -150,15 +157,15 @@
   color: white;
 }
 .impact-data {
-  background-image: url("../../assests/careerImg/Impact\ Number\ Container.png");
-  background-repeat: no-repeat;
+  background-image: url("../../assests/impactImg.png");
+  /* background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 45.6rem;
   display: flex;
   justify-content: center;
-  position: relative;
+  position: relative; */
 }
 .impact-data-content {
   display: flex;

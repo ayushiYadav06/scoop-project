@@ -18,6 +18,10 @@ import comp3 from "../../assests/careerImg/comp3.png";
 import imgg1 from "../../assests/careerImg/imgg1.png";
 import imgg2 from "../../assests/careerImg/imgg2.png";
 import frame1 from "../../assests/careerImg/frame1.png";
+
+import frame2 from "../../assests/Frame 95.png";
+import frame3 from "../../assests/Frame 96.png";
+import frame4 from "../../assests/Frame 97.png";
 const HomePage = () => {
   const careerData = [
     {
@@ -179,6 +183,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <div className="blur"></div>
 
       <div className="career-fit">
         <div className="career-main-content">
@@ -207,7 +212,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="impact">
+      {/* <div className="impact">
         <div className="impact-data">
           <div className="imapct-one">
             <img className="impact-img1" src={comp1} alt="" />
@@ -251,6 +256,74 @@ const HomePage = () => {
               Join Our rapidly growing learning community and acquire real-world
               skills.{" "}
             </p>
+          </div>
+        </div>
+      </div> */}
+
+      <div
+        className="impact-data"
+        style={{
+          width: "100%",
+          height: "100%",
+          // marginLeft: "40px",
+          // marginTop: "50px",
+          // borderRadius: "50px",
+          // padding: "2rem",
+          objectFit: "cover",
+        }}
+      >
+        <div>
+          <div>
+            <img
+              src={frame2}
+              alt=""
+              style={{ width: "22%", marginTop: "-48px", marginLeft: "250px" }}
+            />
+            <div>
+              <img
+                src={frame4}
+                alt=""
+                style={{
+                  width: "24%",
+                  marginLeft: "80px",
+                  marginTop: "-50px",
+                }}
+              />
+              <div>
+                <h1
+                  style={{
+                    color: "white",
+                    marginLeft: "50%",
+                    marginTop: "-10%",
+                    fontSize: "4rem",
+                  }}
+                >
+                  Our Impact Number
+                </h1>
+                <p
+                  style={{
+                    color: "white",
+                    width: "40%",
+                    marginLeft: "50%",
+                    fontSize: "1.5rem",
+                  }}
+                >
+                  Join our rapidly growing learning community and aquire
+                  realworld skills.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img
+                src={frame3}
+                alt=""
+                style={{
+                  width: "22%",
+                  marginLeft: "250px",
+                  marginTop: "-95px",
+                }}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -335,6 +408,69 @@ const HomePage = () => {
         </div>
       </div>
 
+      <div
+        style={{
+          width: "90%",
+          height: "80vh",
+          background: "#aaa",
+          marginLeft: "40px",
+          marginTop: "50px",
+          borderRadius: "50px",
+          padding: "2rem",
+        }}
+      >
+        <div>
+          <div>
+            <img
+              src={frame2}
+              alt=""
+              style={{ width: "22%", marginTop: "-48px", marginLeft: "80px" }}
+            />
+            <div>
+              <img
+                src={frame4}
+                alt=""
+                style={{
+                  width: "24%",
+                  marginLeft: "250px",
+                  marginTop: "-50px",
+                }}
+              />
+              <div>
+                <h1
+                  style={{ color: "red", marginLeft: "50%", marginTop: "-10%" }}
+                >
+                  World-Class Learning For You
+                </h1>
+                <p
+                  style={{
+                    color: "black",
+                    width: "40%",
+                    marginLeft: "50%",
+                    fontSize: "1.5rem",
+                  }}
+                >
+                  Pursue a <b>promotion</b>, a <b>raise</b>, or{" "}
+                  <b>switch careers</b>. 89% of learners who have taken a course
+                  report career benefits.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img
+                src={frame3}
+                alt=""
+                style={{
+                  width: "22%",
+                  marginLeft: "60px",
+                  marginTop: "-95px",
+                }}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="testimonal">
         <div className="testimonal-content">
           <h1 className="testimonal-heading">Listen From Our Students</h1>
@@ -345,17 +481,15 @@ const HomePage = () => {
         <div className="testiomal-cards-container">
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="testiomal-card">
-             
-                <div className="testimonial-img">
-                  <img src={testimonial.imgSrc} alt={testimonial.name} />
-                </div>
-                <div className="test-content"></div>
-                <h2 className="name">{testimonial.name}</h2>
-                <h3 className="data">{testimonial.course}</h3>
-                <h3 className="data">{testimonial.location}</h3>
-                <div className="line"></div>
-                <p className="test-para">"{testimonial.testimonial}"</p>
-           
+              <div className="testimonial-img">
+                <img src={testimonial.imgSrc} alt={testimonial.name} />
+              </div>
+              <div className="test-content"></div>
+              <h2 className="name">{testimonial.name}</h2>
+              <h3 className="data">{testimonial.course}</h3>
+              <h3 className="data">{testimonial.location}</h3>
+              <div className="line"></div>
+              <p className="test-para">"{testimonial.testimonial}"</p>
             </div>
           ))}
         </div>
